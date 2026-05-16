@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+body main .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  width: 25rem;
+  padding: 1rem;
+}
+body main .wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body main .wrapper form .name p {
+  color: grey;
+}
+body main .wrapper .log-in {
+  text-align: center;
+  display: flex;
+  gap: 3rem;
+}
+body main .wrapper .log-in .top {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+body main .wrapper .log-in .top p {
+  font-size: 1rem;
+}
+body main .wrapper .log-in .top a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  width: 5rem;
+}
+body main .wrapper .log-in p {
+  font-size: 0.8rem;
+  color: grey;
+}
+body main .wrapper .buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+body main .wrapper .buttons .Google-apple {
+  background-color: black;
+  border: 1px solid grey;
+  color: white;
+  min-height: 3rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .wrapper .buttons .Google-apple span {
+  max-width: 18rem;
+  width: 100%;
+}
+body main .wrapper .buttons .Google-apple img {
+  width: 2rem;
+  height: 2rem;
+}
+body main .wrapper .buttons .Next {
+  background-color: #1ED760;
+  border: none;
+  min-height: 3rem;
+  border-radius: 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+body main .wrapper .date a {
+  color: grey;
+}
+body main .wrapper .date p {
+  color: grey;
+}
+body main .wrapper div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+body main .wrapper div span {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body main .wrapper div .contain {
+  display: flex;
+  flex-direction: row;
+}
+body main .wrapper div .contain div {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 1rem;
+}
+body main .wrapper div input {
+  background-color: black;
+  border: 1px solid grey;
+  min-height: 3rem;
+  color: white;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
+}
+body main .wrapper .title {
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body main .wrapper .title i {
+  font-size: 2.3rem;
+}
+
+.Next:hover {
+  background-color: #1ED770 !important;
+}
+
+.Google-apple:hover {
+  transform: scale(1.05);
+}
+
+.log-in a:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=sign-up.css.map */

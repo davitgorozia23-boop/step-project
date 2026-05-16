@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter;
+}
+
+main {
+  flex-wrap: wrap;
+}
+main .wrapper {
+  flex-wrap: wrap;
+}
+main .wrapper .Download-Spotify {
+  width: 100%;
+  height: 32rem;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  flex-wrap: wrap;
+}
+main .wrapper .Download-Spotify img {
+  width: 20rem;
+}
+main .wrapper .Download-Spotify b {
+  font-size: 3rem;
+}
+main .wrapper .Download-Spotify p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+main .wrapper .download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 20rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+main .wrapper .download b {
+  font-size: 2.3rem;
+  color: black;
+}
+main .wrapper .download p {
+  font-size: 1.1rem;
+  color: black;
+}
+main .wrapper .download .imgs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .wrapper .download .imgs img {
+  width: 8rem;
+}
+main .wrapper .One-account {
+  width: 100%;
+  height: 27rem;
+  background-image: url("2nd background.png");
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  flex-wrap: wrap;
+}
+main .wrapper .One-account b {
+  font-size: 2.1rem;
+}
+main .wrapper .One-account .listen-everywhere {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  flex-wrap: wrap;
+  display: flex;
+}
+footer .footer-wrapper {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 5rem;
+  justify-content: center;
+}
+footer .footer-wrapper .spotify-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+footer .footer-wrapper .links {
+  display: flex;
+  color: rgb(182, 182, 182);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+footer .footer-wrapper .links div {
+  background-color: rgb(59, 59, 59);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 1.3rem;
+}
+footer .footer-wrapper .links div i {
+  margin: 1rem;
+}
+footer .footer-wrapper .Company,
+footer .footer-wrapper .Communities,
+footer .footer-wrapper .Useful-links,
+footer .footer-wrapper .Spotify-Plans {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: grey;
+  flex-wrap: wrap;
+}
+footer .footer-wrapper .Company p,
+footer .footer-wrapper .Communities p,
+footer .footer-wrapper .Useful-links p,
+footer .footer-wrapper .Spotify-Plans p {
+  color: white;
+}
+footer .footer-wrapper .end {
+  width: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: grey;
+}
+footer .footer-wrapper .end .left {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: end;
+}
+footer .footer-wrapper .end .right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.listen-everywhere div:hover {
+  color: #1ED770;
+}/*# sourceMappingURL=download.css.map */

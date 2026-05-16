@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  padding: 0rem 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header .header-right div {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+header div {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+header div .fa-sistrix {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.5rem;
+}
+header .input-div {
+  width: clamp(150px, 50vw, 30rem);
+  margin-right: 0.5rem;
+}
+header .input-div input {
+  width: clamp(150px, 50vw, 30rem);
+  background-color: #1f1f1f;
+  border: none;
+  color: white;
+  min-height: 2.5rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+}
+header .fa-spotify,
+header .fa-house {
+  color: white;
+  font-size: 1.8rem;
+  align-self: center;
+}
+header .header-left {
+  display: flex;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: grey;
+}
+
+@media (max-width: 425px) {
+  .spotify-house {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 921px) {
+  .header-right div {
+    display: flex;
+    gap: 0.7rem !important;
+  }
+}
+@media (max-width: 887px) {
+  .header-right div {
+    display: flex;
+    gap: 0.5rem !important;
+  }
+}
+@media (max-width: 856px) {
+  .header-right div {
+    display: flex;
+    gap: 0.3rem !important;
+    margin: 0.6rem 0rem;
+  }
+}
+main {
+  background-color: black;
+  color: white;
+  flex-direction: row;
+  display: flex;
+}
+main .main-wrapper {
+  color: white;
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(38, 38, 38);
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  gap: 3rem;
+  width: 75%;
+}
+main .main-wrapper .title-songs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .main-wrapper .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main-wrapper .first-songs,
+main .main-wrapper .second-songs,
+main .main-wrapper .third-songs,
+main .main-wrapper .fourth-songs,
+main .main-wrapper .fifth-songs {
+  display: flex;
+  flex-direction: row;
+  min-height: 15rem;
+}
+main .main-wrapper .first-songs .Trending-songs,
+main .main-wrapper .second-songs .Trending-songs,
+main .main-wrapper .third-songs .Trending-songs,
+main .main-wrapper .fourth-songs .Trending-songs,
+main .main-wrapper .fifth-songs .Trending-songs {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main .main-wrapper .first-songs .Trending-songs div,
+main .main-wrapper .second-songs .Trending-songs div,
+main .main-wrapper .third-songs .Trending-songs div,
+main .main-wrapper .fourth-songs .Trending-songs div,
+main .main-wrapper .fifth-songs .Trending-songs div {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .Trending-songs div img,
+main .main-wrapper .second-songs .Trending-songs div img,
+main .main-wrapper .third-songs .Trending-songs div img,
+main .main-wrapper .fourth-songs .Trending-songs div img,
+main .main-wrapper .fifth-songs .Trending-songs div img {
+  border-radius: 0.5rem;
+  width: 10.35rem;
+}
+main .main-wrapper .first-songs .popular-artists,
+main .main-wrapper .second-songs .popular-artists,
+main .main-wrapper .third-songs .popular-artists,
+main .main-wrapper .fourth-songs .popular-artists,
+main .main-wrapper .fifth-songs .popular-artists {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main .main-wrapper .first-songs .popular-artists div,
+main .main-wrapper .second-songs .popular-artists div,
+main .main-wrapper .third-songs .popular-artists div,
+main .main-wrapper .fourth-songs .popular-artists div,
+main .main-wrapper .fifth-songs .popular-artists div {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .popular-artists div img,
+main .main-wrapper .second-songs .popular-artists div img,
+main .main-wrapper .third-songs .popular-artists div img,
+main .main-wrapper .fourth-songs .popular-artists div img,
+main .main-wrapper .fifth-songs .popular-artists div img {
+  width: 10.35rem;
+  border-radius: 50%;
+}
+main .main-wrapper .first-songs .albums-and-singles,
+main .main-wrapper .second-songs .albums-and-singles,
+main .main-wrapper .third-songs .albums-and-singles,
+main .main-wrapper .fourth-songs .albums-and-singles,
+main .main-wrapper .fifth-songs .albums-and-singles {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main .main-wrapper .first-songs .albums-and-singles div,
+main .main-wrapper .second-songs .albums-and-singles div,
+main .main-wrapper .third-songs .albums-and-singles div,
+main .main-wrapper .fourth-songs .albums-and-singles div,
+main .main-wrapper .fifth-songs .albums-and-singles div {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .albums-and-singles div img,
+main .main-wrapper .second-songs .albums-and-singles div img,
+main .main-wrapper .third-songs .albums-and-singles div img,
+main .main-wrapper .fourth-songs .albums-and-singles div img,
+main .main-wrapper .fifth-songs .albums-and-singles div img {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .popular-radio,
+main .main-wrapper .second-songs .popular-radio,
+main .main-wrapper .third-songs .popular-radio,
+main .main-wrapper .fourth-songs .popular-radio,
+main .main-wrapper .fifth-songs .popular-radio {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main .main-wrapper .first-songs .popular-radio div,
+main .main-wrapper .second-songs .popular-radio div,
+main .main-wrapper .third-songs .popular-radio div,
+main .main-wrapper .fourth-songs .popular-radio div,
+main .main-wrapper .fifth-songs .popular-radio div {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .popular-radio div img,
+main .main-wrapper .second-songs .popular-radio div img,
+main .main-wrapper .third-songs .popular-radio div img,
+main .main-wrapper .fourth-songs .popular-radio div img,
+main .main-wrapper .fifth-songs .popular-radio div img {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .Featured-Charts,
+main .main-wrapper .second-songs .Featured-Charts,
+main .main-wrapper .third-songs .Featured-Charts,
+main .main-wrapper .fourth-songs .Featured-Charts,
+main .main-wrapper .fifth-songs .Featured-Charts {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+main .main-wrapper .first-songs .Featured-Charts div,
+main .main-wrapper .second-songs .Featured-Charts div,
+main .main-wrapper .third-songs .Featured-Charts div,
+main .main-wrapper .fourth-songs .Featured-Charts div,
+main .main-wrapper .fifth-songs .Featured-Charts div {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main .main-wrapper .first-songs .Featured-Charts div img,
+main .main-wrapper .second-songs .Featured-Charts div img,
+main .main-wrapper .third-songs .Featured-Charts div img,
+main .main-wrapper .fourth-songs .Featured-Charts div img,
+main .main-wrapper .fifth-songs .Featured-Charts div img {
+  width: 10.35rem;
+  border-radius: 0.5rem;
+}
+main section {
+  background-color: #1f1f1f;
+  border-radius: 0.5rem;
+  margin: 0rem 1rem;
+  margin-bottom: 1rem;
+  width: 25%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+main section .settings {
+  padding: 1rem;
+  color: grey;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+main section .settings div {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+main section .settings .cookies {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main section .settings .cookies b {
+  color: white;
+}
+main section .settings .language {
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  gap: 0.4rem;
+  max-width: 6.5rem;
+  margin-top: 1.8rem;
+}
+main section .playlist {
+  background-color: rgb(59, 59, 59);
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  padding: 0.5rem;
+  max-width: 18rem;
+}
+main section .playlist button {
+  background-color: white;
+  border: none;
+  border-radius: 1.5rem;
+  width: 8rem;
+  padding: 0.6rem;
+  font-weight: bold;
+}
+main section .libary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main section .libary .plus {
+  background-color: rgb(59, 59, 59);
+  border-radius: 50%;
+  max-width: 2.3rem;
+  width: 100%;
+  min-height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  margin-top: 2rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+footer .footer-wrapper {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+footer .footer-wrapper .links {
+  display: flex;
+  color: rgb(182, 182, 182);
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+footer .footer-wrapper .links div {
+  background-color: rgb(59, 59, 59);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 1.3rem;
+}
+footer .footer-wrapper .links div i {
+  margin: 1rem;
+}
+footer .footer-wrapper .Company,
+footer .footer-wrapper .Communities,
+footer .footer-wrapper .Useful-links,
+footer .footer-wrapper .Spotify-Plans {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+footer .footer-wrapper .Company p,
+footer .footer-wrapper .Communities p,
+footer .footer-wrapper .Useful-links p,
+footer .footer-wrapper .Spotify-Plans p {
+  color: grey;
+}
+
+.end {
+  color: grey;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1015px) {
+  main {
+    flex-direction: column-reverse;
+  }
+  main .main-wrapper,
+  main section {
+    width: 95%;
+    margin: 0rem 1rem;
+    margin-bottom: 1rem;
+  }
+  main section {
+    width: 50%;
+  }
+}
+.Trending-songs div:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.popular-artists div:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.albums-and-singles div:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.popular-radio div:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.Featured-Charts div:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.buttons a:hover {
+  color: white;
+  transform: scale(1.05);
+}/*# sourceMappingURL=main.css.map */

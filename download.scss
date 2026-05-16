@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$main-color: #1f1f1f;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Inter;
+}
+
+main {
+    flex-wrap: wrap;
+
+    .wrapper {
+        flex-wrap: wrap;
+
+        .Download-Spotify {
+            width: 100%;
+            height: 32rem;
+            background-image: url("background.png");
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+            flex-wrap: wrap;
+
+            img {
+                width: 20rem;
+            }
+
+            b {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+
+        .download {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 20rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+
+            b {
+                font-size: 2.3rem;
+                color: black;
+            }
+
+            p {
+                font-size: 1.1rem;
+                color: black;
+            }
+
+            .imgs {
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                flex-wrap: wrap;
+                align-items: center;
+
+                img {
+                    width: 8rem;
+                }
+            }
+        }
+
+        .One-account {
+            width: 100%;
+            height: 27rem;
+            background-image: url("2nd\ background.png");
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+            flex-wrap: wrap;
+
+            b {
+                font-size: 2.1rem;
+            }
+
+            .listen-everywhere {
+                display: flex;
+                flex-direction: row;
+                gap: 0.9rem;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+
+    .footer-wrapper {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        padding: 5rem;
+        justify-content: center;
+
+        .spotify-logo {
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.3rem;
+            }
+        }
+
+        .links {
+            display: flex;
+            color: rgb(182, 182, 182);
+            gap: 1rem;
+            flex-wrap: wrap;
+
+            div {
+                background-color: rgb(59, 59, 59);
+                height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2rem;
+                padding: 1.5rem;
+                border-radius: 1.5rem;
+                font-size: 1.3rem;
+
+                i {
+                    margin: 1rem;
+                }
+            }
+        }
+
+        .Company,
+        .Communities,
+        .Useful-links,
+        .Spotify-Plans {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            color: grey;
+            flex-wrap: wrap;
+
+            p {
+                color: white;
+            }
+
+        }
+
+        .end {
+            width: 100%;
+            font-size: 0.9rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: grey;
+
+
+            .left {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                align-items: end;
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+.listen-everywhere {
+    div:hover {
+        color: #1ED770;
+    }
+}

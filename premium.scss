@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$main-color: #1f1f1f;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        .Premium-Individual {
+            background-color: rgb(18, 18, 18);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 1rem;
+            color: white;
+            flex-wrap: wrap;
+            width: 100%;
+            
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                width: 55%;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                margin-left: 5rem;
+                margin-top: 3rem;
+
+                .buttons {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+
+                    .view {
+                        background-color: black;
+                        border: 1px solid grey;
+                    }
+
+                    div {
+                        background-color: #c402ca;
+                        padding: 0.6rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 2rem;
+                        flex-wrap: wrap;
+                    }
+                }
+
+                h1 {
+                    font-weight: bold;
+                }
+
+                span {
+                    font-size: 0.8rem;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        .Experience-difference {
+            width: 100%;
+            background-color: rgb(18, 18, 18);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .ex-wrapper {
+                margin-top: 3.5rem;
+                max-width: 30rem;
+                width: 100%;
+                flex-wrap: wrap;
+
+                p {
+                    text-align: center;
+                }
+
+                .first {
+                    margin-top: 1rem;
+                    padding: 0.5rem 0rem;
+                    flex-wrap: wrap;
+                }
+
+                .bottom {
+                    padding-right: 4.5rem;
+                    flex-wrap: wrap;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-top: 1px solid grey;
+                    border-bottom: 1px solid grey;
+                    flex-wrap: wrap;
+
+                    p {
+                        font-size: 2rem;
+                    }
+
+                    i {
+                        font-size: 1.5rem;
+                    }
+
+                    b {
+                        width: 7.5rem;
+                    }
+                }
+            }
+        }
+
+        .Premium-plans {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(18, 18, 18);
+            width: 100%;
+            flex-wrap: wrap;
+
+            .prem-wrapper {
+                margin-top: 5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 35rem;
+                width: 100%;
+                color: white;
+                margin-bottom: 5rem;
+                gap: 3rem;
+                flex-wrap: wrap;
+
+                .top {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    img {
+                        width: 18rem;
+                        margin: 1rem 0rem;
+                    }
+                }
+
+                .bottom {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    .first {
+                        display: flex;
+                        width: 50%;
+                        flex-wrap: wrap;
+                    }
+
+                    .second {
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.8rem;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+
+        .packets {
+            background-color: rgb(18, 18, 18);
+            display: flex;
+            align-items: center;
+            flex-direction: center;
+            width: 100%;
+            flex-wrap: wrap;
+
+            div {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 4rem;
+                flex-wrap: wrap;
+                margin-bottom: 5rem;
+                flex-wrap: wrap;
+
+                img {
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+
+    .footer-wrapper {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        padding: 5rem;
+        justify-content: center;
+
+        .spotify-logo {
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.3rem;
+            }
+        }
+
+        .links {
+            display: flex;
+            color: rgb(182, 182, 182);
+            gap: 1rem;
+            flex-wrap: wrap;
+
+            div {
+                background-color: rgb(59, 59, 59);
+                height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2rem;
+                padding: 1.5rem;
+                border-radius: 1.5rem;
+                font-size: 1.3rem;
+
+                i {
+                    margin: 1rem;
+                }
+            }
+        }
+
+        .Company,
+        .Communities,
+        .Useful-links,
+        .Spotify-Plans {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            color: grey;
+            flex-wrap: wrap;
+
+            p {
+                color: white;
+            }
+
+        }
+
+        .end {
+            width: 100%;
+            font-size: 0.9rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: grey;
+
+
+            .left {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                align-items: end;
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
